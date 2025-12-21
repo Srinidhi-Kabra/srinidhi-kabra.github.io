@@ -1,5 +1,5 @@
 ---
-date: '2025-10-31T16:49:58+05:30'
+date: '2025-10-04T16:49:58+05:30'
 title: 'Syntactics vs Semantics of Mathematics'
 description: 'In this essay, I analyse the meaning of mathematics. In a system where the syntactics - methodology of rigor and proofs is given the most importance, where does the semantics lie?'
 tags:
