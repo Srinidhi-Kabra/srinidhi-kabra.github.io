@@ -2,7 +2,7 @@
 date: '2025-12-21T19:05:08+05:30'
 draft: false
 title: 'First Glance at Knowledge Tapestry'
-description:
+description: 'In this blog, I develop a metaphor to engage in a discussion on the nature of understanding itself. The primary goal of the essay is to advocate for the role of human ambition played in the construction of knowledge whether at a personal level or that of a civilisation.'
 tags :
 category :
 series:
@@ -21,6 +21,7 @@ Thus, the question of what 'understanding a phenomenon' could be translated to l
 1. _Local understanding_ : this would represent analysing the structure of the knot itself, from the thread it is composed of, to its shape.
 2. _Contextual Understanding_ : analysing and situating the knot in the grand tapestry itself with reference to the knots it is connected to. Note that this contextualisation will certainly involve local understanding of the neighbouring knots for each one's threads intermingle to form the connection observed.
 3. _Architecturally Generative Understanding_ : forming new connections with knots previously not observed. 
+
 So far the conversation has been restricted to holistically understanding of a particular knot, which itself is a form of local understanding when concerned with the entire tapestry. One must add _spontaneous generation_ to this list which amounts to the formation of a new knot itself. Although, this cannot be realised as a direct understanding of the phenomenon for one must go through first architecturally generative understanding to establish a connection with the newly formed knot and then contextualise it to understand the phenomenon. Additionally, to understand the tapestry itself it is necessary to understand the connections in their own right instead of in the context of a particular knot. One could call this _categorical understanding_. It is thus clear that 'to understand wholly' is incomplete with just the local picture, where syntactic manipulations would lie. 
 
 Enough has been commented about the epistemological consequences of this analogy for a first glance yet some aspects of the ontology underlying this analogy has not been explored. A keen reader may observe an unusual choice of adjective in the opening paragraph of this essay, where I describe the balance between curiosity and hope as being 'diaphanous' - an adjective usually reserved for translucent, delicate clothing. Beyond poetic beauty, it serves to highlight an important aspect of this interaction. One may be tempted to understand where on the spectrum between paralysing nihilism and suppressive dogma does one's balance between curiosity and hope lie. As tempting as it may be, I would argue it to be a hopeless endeavour. One can attempt to situate oneself on this spectrum, but to do so one already utilises their present position, meaning, a true external perspective is never achieved for it would require one to step outside of their environmental conditioning which we can safely regard as being impossible. This in itself, does not grant the absence of any vision whatsoever when it comes to the primary question. However, it does highlight the opacity without lucidity that one experiences in an attempt to situate themselves along the spectrum. 

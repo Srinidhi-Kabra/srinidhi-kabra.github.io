@@ -5,6 +5,8 @@
         <h1 style="font-size: 3rem;" class="font-extrabold">{{ .Title }}</h1>
     </header>
 
+    
+
     <hr class="border-gray-300 mb-0">
     
   {{ $enableToc := or (.Params.showTableOfContents) (site.Params.article.showTableOfContents) | default false }}
@@ -30,6 +32,19 @@
             {{ .Title }}
           </a>
         </h2>
+        <p class="text-xs text-gray-500 mb-2">
+          {{ if or (.Params.showDate) (site.Params.article.showDate) }}
+            <span>{{ .Date.Format "2 Jan 2006" }}</span>
+          {{ end }}
+        
+          {{ if or (.Params.showReadingTime) (site.Params.article.showReadingTime) }}
+            · <span>{{ .ReadingTime }} min read</span>
+          {{ end }}
+        
+          {{ if or (.Params.showWordCount) (site.Params.article.showWordCount) }}
+            · <span>{{ .WordCount }} words</span>
+          {{ end }}
+        </p>
         <p class="mb-1 text-sm text-gray-600">
           {{ with .Params.description }}
             {{ . }}

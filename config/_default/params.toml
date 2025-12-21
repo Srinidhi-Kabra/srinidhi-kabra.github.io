@@ -64,6 +64,8 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [article]
   showDate = true
+  showReadingTime = true
+  showWordCount = true
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
@@ -83,18 +85,19 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
   showTableOfContents = false
   # showRelatedContent = false
   # relatedContentLimit = 3
   showTaxonomies = false # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
-  showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
   showZenMode = false
 
 [list]
+  showDate = true
+  showWordCount = true
+  showReadingTime = true
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground

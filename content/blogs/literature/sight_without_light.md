@@ -1,8 +1,8 @@
 ---
-date: '2025-10-28T21:23:41+05:30'
+date: '2024-10-28T21:23:41+05:30'
 draft: false
 title: 'Sight Without Light'
-description: "In this poetic prose, I examine the duality of light and darkness as experienced during emotional turmoil."
+description: "In this poetic prose, I examine the duality of light and darkness as experienced during emotional turmoil in the form of confessions over time."
 categories : ["Literature"]
 series:
     - "Darkness"
