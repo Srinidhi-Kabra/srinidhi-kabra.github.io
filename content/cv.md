@@ -66,31 +66,15 @@ Collaborated with the student to design a learning path optimal for their goals 
 ---
 
 ## Self-Initiated Readings 
-<span style="color:rgb(100, 140, 150);">The following summarises the concepts I have learned both formally, and on my own initiative in the broad disciplines of algebra, analysis and mathematical physics. Topics marked with \* indicate that it is still in progress.</span> 
+<span style="color:rgb(100, 140, 150);">Textbooks marked with * indicate ongoing progress. </span> 
 
-- **Linear Algebra** : Vector spaces, algebras, determinants, tensor algebra, exterior algebra \*, eigenvalues and eigenvectors, rational and Jordan forms, inner product spaces, operators on inner product spaces, bilinear forms, unitary spaces. 
-- **Group Theory** : Quotient groups, isomorphism theorems, Sylow theorems, counting principles, direct products, Burnside's theorem. 
-- **Ring \& Module Theory** : Elementary definitions, ideals, quotient rings, Euclidean rings, factorisation domains; elementary concepts of modules, Artinian modules, modules with chain conditions \*, Wedderburn structure theorem. 
-- **Representation Theory** : Elementary definitions,  representation theory of finite groups (Maschke's theorem, characters, orthogonality relations, unitary representations, Frobenius reciprocity), definition of quivers \*, filtrations, Jordan-Holder theorem, Krull-Schmidt theorem, Schur-Weyl duality \*.
-- **Lie Theory \*** : Matrix groups, topology of matrix groups, Lie groups, Lie algebras, maximal tori \*, Killing form and Casimir \*, basics of representations. 
-- **Quantum Groups \*** : Algebraic construction of Hopf algebra, antipode mapping, Lie bialgebra and Poisson-Lie groups. 
+**Particle Physics**
+- Lie Algebras in Particle Physics by Howard Georgi 
+- Symmetries and Group Theory in Particle Physics by Costa, Fogli \*
 
-Currently connecting the concepts of Lie theory while learning basics of differential geometry to pave a rigorous path towards quantum groups. 
-
-- **Analysis \& Topology** : \( \mathbb{R} \) number field, metric spaces, compactness, connectedness, basic topology; continuity \& differentiability in \( \mathbb{R}^n \), Riemann integration; sequences and series of functions, Inverse function theorem, implicit function theorem; integration of differential forms \* 
-- **Calculus** : Partial derivatives, Lagrange multipliers, line integrals, surface integrals, volume integrals, Stokes’ theorem, Green’s theorem, first and second order linear differential equations
-
-My other exposure to mathematics includes,
-
-- **Combinatorics** : Basic principles of enumerative combinatorics, generating functions, counting techniques, recurrence relations. 
-- **Number Theory** : Fermat's theorem, arithmetic functions, Mobius inversion, quadratic reciprocity. 
-- **Probability** : Basic definitions, probability distributions, limit theorems, law of large numbers. 
-- **Set theory and Logic** : Propositional logic, first order logic, axioms of set theory. 
-
-I am primarily interested in approaching physics from mathematical viewpoint, as such I have listed topics I have studied rigorously from a mathematical lens. 
-
-- **Elementary Physics** : Newtonian mechanics, Lagrangian and Hamiltonian mechanics, calculus of variations, basic electromagnetism, Maxwell's equations, electromagnetic waves, waves and optics, interference and diffraction, Fourier transform.
-- **Quantum \& Particle Physics** : Foundational experiments, Compton effect, Schrodinger equation, Hydrogen atom, Lorentz group and its representations. Currently studying particle physics from 'Symmetries and Group Theory in Particle Physics' by Costa, Fogli \*.
+**Algebra \& Representation Theory**
+- Introduction to Representation Theory by Etingof \*
+- Multilinear Algebra by Werner Greub
 
 
 ---
