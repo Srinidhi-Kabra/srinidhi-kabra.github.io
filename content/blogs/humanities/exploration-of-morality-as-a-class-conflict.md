@@ -6,7 +6,7 @@ description: The following essay was written for a take-home exam assigned by my
 category : ["Sociology"]
 tags:
     - sociology
-    - psuedoscience
+    - pseudoscience
 showReadingTime: true
 showWordCount: true
 ---
