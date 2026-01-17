@@ -5,7 +5,6 @@ title: 'Sight Without Light'
 description: "In this poetic prose, I examine the duality of light and darkness as experienced during emotional turmoil in the form of confessions over time."
 categories : ["Literature"]
 series:
-    - "Darkness"
 tags : 
     - literature
 showReadingTime: true

@@ -17,9 +17,8 @@ My main research interests are the intersection(s) of algebra, geometry and math
 **Bachelors and Masters in Mathematics (2023-2028)** \
 *Indian Institute of Science Education and Research (IISER), Mohali*
 
-- *Mathematics Courses Credited* : Linear Algebra, Group Theory, Set Theory and
-Logic, Real Analysis, Probability and Statistics, Differential and Integral Calculus,
-Elementary Number Theory, Introduction to Ordinary Differential Equations. 
+- *Mathematics Courses Credited* : Linear Algebra, Group Theory, Rings and Modules, Set Theory and
+Logic, Real Analysis, Complex Analysis, Lesbesgue Measure and Integration Theory, Topology, Probability and Statistics, Elementary Number Theory, Introduction to Ordinary Differential Equations. 
 - *Physics Courses Credited* : Mechanics, Electromagnetism, Waves and Optics, Overview
 of Mathematical Methods, Thermodynamics and Statistical Physics, Modern Physics,
 Physics Lab (I, II, III & IV) 
