@@ -15,44 +15,8 @@
   {{ end }}
 
   
+ 
 
-  <hr class="border-gray-300 mb-6">
-
-  <section class="prose dark:prose-invert mx-auto px-0">
-    {{ .Content }}
-  </section>
-
-  <section class="blog-list prose mx-auto px-0">
-    {{ range where .Site.RegularPages "Section" "teaching" }}
-      <article class="mb-4 pb-2 border-b border-gray-300">
-        <h2 class="text-2xl font-semibold mb-1">
-          <a href="{{ .RelPermalink }}" class="hover:underline">
-            {{ .Title }}
-          </a>
-        </h2>
-        <p class="mb-1 text-sm text-gray-600">
-          {{ with .Params.description }}
-            {{ . }}
-          {{ else }}
-            {{ .Summary }}
-          {{ end }}
-        </p>
-
-        {{ if .Params.tags }}
-        <p>
-          Tags:
-          {{ range $index, $tag := .Params.tags }}
-          <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" style="margin-right:8px; color:#3490dc;">#{{ $tag }}</a>
-          {{ end }}
-        </p>
-        {{ end }}
-
-      </article>
-    {{ else }}
-      <p>No blog posts found.</p>
-    {{ end }}
-  </section>
-</article>
 
 
 
