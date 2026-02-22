@@ -10,7 +10,7 @@ I have always been frustrated with the education system I was raised in. The emp
 
 ---
 
-# 11th-12th Grade Math \& Physics (Feb 2025 -- Feb 2026)
+## 11th-12th Grade Math \& Physics (Feb 2025 -- Feb 2026)
 
 The goal with my teaching program was to find like minded students who are interested in understanding the subject itself, instead of just scoring good marks. I got in touch with some high school students who already had exposure to some advanced math and physics and wanted to further understand the subject. I designed a syllabus suitable for their needs - both academic and intellectual. I taught them the concepts of mathematics and physics in the same manner that I view them - not as formulas to be memorised, but as stories that weave together centuries of human curiosity, ambition, and ideas. 
 
@@ -18,7 +18,7 @@ We started off by learning about basics of set theory and functions and built ou
 
 ---
 
-# Freelance Math Tutoring (Feb 2025 -- May 2025)
+## Freelance Math Tutoring (Feb 2025 -- May 2025)
 
 I collaborated with the student to design a learning path optimal for their goals and development. Motivation of concepts and derivations of formulas was prioritised during lectures to aid the process of critical thinking and eliminate a reliance on rote learning. By the end of the three month duration, once the foundations were solidified; the student was able to grasp concepts on their own and as such no longer required additional support when studying mathematics. Observed an increase in student’s test scores and confidence in their mathematical abilities. Topics I taught included combinatorics, probability and basic differential calculus. 
 
