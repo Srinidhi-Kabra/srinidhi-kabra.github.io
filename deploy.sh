@@ -1,20 +1,22 @@
 #!/bin/bash
 
+# Exit immediately if any command exits with a non-zero status
 set -e
 
-echo "🚀 Building site with Hugo..."
-hugo
+echo "🧹 Cleaning old build files..."
+rm -rf public
 
-echo "📦 Committing changes to main branch..."
+echo "🚀 Building site with Hugo..."
+hugo --minify
+
+echo "📦 Committing project source changes to main branch..."
 git add .
-git commit -m "Update content"
+# Check if there are changes to commit so the script doesn't crash if nothing changed
+git diff-index --quiet HEAD || git commit -m "Update source content"
 git push origin main
 
-echo "🌐 Deploying to gh-pages..."
-cd public
-git add .
-git commit -m "Deploy update"
-git push -f origin gh-pages
-cd ..
+echo "🌐 Deploying public folder to gh-pages branch..."
+# This command extracts the 'public' folder and pushes it as the root of gh-pages
+git subtree push --prefix public origin gh-pages
 
 echo "✅ Site updated: https://srinidhi-kabra.github.io"
