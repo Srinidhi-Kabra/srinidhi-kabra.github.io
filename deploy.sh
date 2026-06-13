@@ -11,12 +11,12 @@ hugo --minify
 
 echo "📦 Committing project source changes to main branch..."
 git add .
-# Check if there are changes to commit so the script doesn't crash if nothing changed
+# Prevents script from crashing if there's nothing new to commit on main
 git diff-index --quiet HEAD || git commit -m "Update source content"
 git push origin main
 
-echo "🌐 Deploying public folder to gh-pages branch..."
-# Added the -f flag at the end to overwrite the remote branch history automatically
-git subtree push --prefix public origin gh-pages -f
+echo "🌐 Force-deploying public folder to gh-pages branch..."
+# The bulletproof subtree force-push mechanism
+git push origin `git subtree split --prefix public main`:gh-pages --force
 
 echo "✅ Site updated: https://srinidhi-kabra.github.io"
