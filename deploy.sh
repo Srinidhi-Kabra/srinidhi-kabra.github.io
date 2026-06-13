@@ -16,7 +16,7 @@ git diff-index --quiet HEAD || git commit -m "Update source content"
 git push origin main
 
 echo "🌐 Deploying public folder to gh-pages branch..."
-# This command extracts the 'public' folder and pushes it as the root of gh-pages
-git subtree push --prefix public origin gh-pages
+# Added the -f flag at the end to overwrite the remote branch history automatically
+git subtree push --prefix public origin gh-pages -f
 
 echo "✅ Site updated: https://srinidhi-kabra.github.io"
