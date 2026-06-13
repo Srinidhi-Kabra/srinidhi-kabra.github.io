@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://srinidhi-kabra.github.io/sitemap.xml
