@@ -11,11 +11,10 @@ series:
 showWordCount: true
 showReadingTime: true
 math: true
-widths: 'wide'
+widths: 'md'
 ---
 {{< katex >}}
 <div style="text-align: justify; font-size: 1rem;">
-
 
 <style>
   /* This will only apply to elements on this exact page */
@@ -40,12 +39,10 @@ where \( \deg (r(x)) < \deg (f(x)) \). The proof of this assertion is quite stra
 
 We now induct on \( m \). Suppose \( m≥n \). Let \( p(x)=b_{m}x^{m}+\cdots +b_{0} \) and let \( f(x)=x^{n}+a_{n-1}x^{n-1}+ \cdots + a_{0} \) then notice that \( \text{deg}(p(x)-b_{n}x^{m-n})< m \). Therefore by applying the induction hypothesis we have, 
 
-\[ 
-\begin{align*}
+$$\begin{align*}
 p(x)-b_{m}x^{m-n}f(x)&=q'(x) f(x) + r(x) \\
 \implies  p(x) &= q(x) f(x) + r(x)
-\end{align*}
-\]
+\end{align*}$$
 where $\text{deg}(r(x))< n$. The uniqueness of the polynomials $q(x)$ and $r(x)$ is easy enough to see.
 
 As a direct consequence of this lemma we have that for any polynomial $f\in R[x]$  with leading coefficient a unit, $u\in R^\times$, the division algorithm works. This is because we may multiply by $u^{-1}f$ is a monic polynomial and therefore, for any $p(x)=q(x)(u^{-1}f(x))+r(x)\implies (u^{-1}q(x))f(x)+r(x)$ where $\text{deg}(r(x))<\text{deg}(u^{-1}f(x))=\text{deg}(f(x))$. Note that here we've used commutativity of ring $R$. 
@@ -56,7 +53,7 @@ $$R[x]/(f(x))=\{ \overline{a_{0}} + \overline{a_{1}x}+\cdots+\overline{a_{n-1}x^
 
 As a corollary, for any two distinct polynomials $p(x),q(x)$ of degree less than $n=\deg(f(x))$, we cannot have that $\overline{p(x)}=\overline{q(x)}$ for otherwise $p(x)-q(x)$ would be a multiple of $f(x)$. Then the degree constraint force them to be equal. Therefore when restricted to polynomials of degree less than $n$, the quotient map $\phi:R\to R[x]/(f(x))$ is injective. 
 
-In fact for this injectivity of quotient map (when restricted to polynomials of degree less than $n$), we do not require $f(x)$ to be monic. Only if we want that every coset of $f(x)$ has a lower degree representative do we require $f$ to be monic. But if $R$ is an integral domain, then any polynomial of degree less than $n=\deg f$ would always make the quotient map injective in the above sense. The proof is simple: Suppose $R$ is an integral domain. Let $a(x)\in R[x]$ be a polynomial of degree $<n=\deg f$ such that $\overline{a(x)}=0$ then $a(x)=q(x)f(x)$. Because $R$ is an integral domain, the leading coefficients of $q,f$ cannot multiply to zero. Thus, $\deg a(x)≥n$ which is a contradiction. Therefore, $q(x)$ cannot be nonzero and $a(x)$ must be the zero polynomial. Hence the only element in the kernel of the quotient map (when restricted to polynomials of degree less than $n$) is $0$. Thus over this set this map is injective. 
+In fact for this injectivity of quotient map (when restricted to polynomials of degree less than $n$), we do not require $f(x)$ to be monic. Only if we want that every coset of $f(x)$ has a lower degree representative do we require $f$ to be monic. But if $R$ is an integral domain, then any polynomial of degree less than $n=\deg f$ would always make the quotient map injective in the above sense. The proof is simple: Suppose $R$ is an integral domain. Let $a(x)\in R[x]$ be a polynomial of degree less than $n =\deg f$ such that $\overline{a(x)}=0$ then $a(x)=q(x)f(x)$. Because $R$ is an integral domain, the leading coefficients of $q,f$ cannot multiply to zero. Thus, $\deg a(x)≥n$ which is a contradiction. Therefore, $q(x)$ cannot be nonzero and $a(x)$ must be the zero polynomial. Hence the only element in the kernel of the quotient map (when restricted to polynomials of degree less than $n$) is $0$. Thus over this set this map is injective. 
 
 ---
 
@@ -69,11 +66,11 @@ We now utilise the above discussion to establish a result, which is the primary 
 **Proof**:
 We prove this using contrapositive. 
  
-Suppose that $f(x)$ is reducible in $R[x]$. Then we may write $f(x)=a_{1}(x)a_{2}(x)\cdots a_{n}(x)$ for some polynomials $a_{i}(x)\in R[x]$. Note that $a_{i}(x)\ne {0}$ for all $i$. Since $f(x)$ is a primitive polynomial, none of the factors $a_{i}$ can be constant polynomials. Therefore, for all $i$, we have, $\deg a_{i}<\deg f$. Let bar denote the passage to the quotient ring $R[x]/(f(x))$. Then we know that this map is injective over the set of all polynomials of degree less than $\deg f$. Thus, $\overline{a_{i}(x)}=\overline{p(x)}\implies a_{i}(x)=p(x)$. 
+Suppose that $f(x)$ is reducible in $R[x]$. Then we may write $f(x)=a_{1}(x)a_{2}(x)\cdots a_{n}(x)$ for some polynomials $a_{i}(x)\in R[x]$. Note that $a_{i}(x) \neq 0$ for all $i$. Since $f(x)$ is a primitive polynomial, none of the factors $a_{i}$ can be constant polynomials. Therefore, for all $i$, we have, $\deg a_{i}<\deg f$. Let bar denote the passage to the quotient ring $R[x]/(f(x))$. Then we know that this map is injective over the set of all polynomials of degree less than $\deg f$. Thus, $\overline{a_{i}(x)}=\overline{p(x)}\implies a_{i}(x)=p(x)$. Also,
 
-Now, $\overline{f(x)}=\overline{a_{1}(x)} \cdots \overline{a_{n}(x)}=\overline{0}$
+$$\overline{f(x)}=\overline{a_{1}(x)} \cdots \overline{a_{n}(x)}=\overline{0}$$
 
-Therefore $\overline{a_{i}(x)}$ are zero divisors, i.e. $R[x]/(f(x))$ is not an integral domain. Note that $\overline{a_{i}(x)}\ne \overline{0}$ since that would force $a_{i}(x)=0$. Taking contrapositive of this result yields the lemma.
+Therefore $\overline{a_{i}(x)}$ are zero divisors, i.e. $R[x]/(f(x))$ is not an integral domain. Note that $\overline{a_{i}(x)} \neq \overline{0}$ since that would force $a_{i}(x)=0$. Taking contrapositive of this result yields the lemma.
 $\blacksquare$
 
 If we instead forego the requirement that $R$ is an integral domain then we can still make the above theorem work by requiring $R$ to be a commutative ring and $f(x)$ to be a monic polynomial (or a polynomial with leading coefficient a unit). The condition of commutative ring is required since it was supposed when proving the division algorithm. 

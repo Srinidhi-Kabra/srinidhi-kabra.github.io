@@ -1,0 +1,42 @@
+/* --- Academic Hybrid Engine (LaTeX Font + Markdown Spacing) --- */
+
+/* 1. Core Typography with the iconic TeX font */
+article, .prose {
+    font-family: "Computer Modern Serif", serif !important;
+    font-size: 11.5pt !important; /* Slightly optimized for screen reading */
+    line-height: 1.7 !important;   /* Comfortable modern line height */
+    color: #111111 !important;     /* Deep print black */
+    
+    /* 2. Textbook justification and auto-hyphenation */
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    hyphens: auto !important;
+    word-break: normal !important;
+}
+
+/* 3. Pure Markdown Paragraph Layout (No indents, clean block gaps) */
+.prose p {
+    text-indent: 0 !important;       /* ❌ Completely removes first-line indentation */
+    margin-top: 0 !important;
+    margin-bottom: 1.25rem !important; /* ✅ Keeps standard Markdown vertical spacing */
+}
+
+/* 4. Section Headers */
+.prose h1, .prose h2, .prose h3, .prose h4 {
+    font-family: "Computer Modern Serif", serif !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    text-align: left !important;
+    margin-top: 2.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.prose h1 { font-size: 1.7em !important; }
+.prose h2 { font-size: 1.4em !important; }
+.prose h3 { font-size: 1.2em !important; }
+
+/* 5. Math Element Harmonization */
+.katex {
+    font-family: "KaTeX_Main", "Computer Modern Serif", serif !important;
+    font-size: 1.02em !important; /* Perfectly balances the optical weight against the text */
+}

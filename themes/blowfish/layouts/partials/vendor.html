@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vausthagast/computer-modern-web-font@master/fonts.css">
+
 {{/* jQuery */}}
 {{ $jqueryLib := resources.Get "lib/jquery/jquery.slim.min.js" | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
 <script src="{{ $jqueryLib.RelPermalink }}" integrity="{{ $jqueryLib.Data.Integrity }}"></script>
@@ -30,25 +32,10 @@
 
 {{/* Katex */}}
 {{ if .Page.HasShortcode "katex" }}
-  {{ $katexCSS := resources.Get "lib/katex/katex.min.css" }}
-  {{ $katexCSS := $katexCSS | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{ $katexCSS.RelPermalink }}"
-    integrity="{{ $katexCSS.Data.Integrity }}">
-  {{ $katexLib := resources.Get "lib/katex/katex.min.js" }}
-  {{ $katexRenderLib := resources.Get "lib/katex/auto-render.min.js" }}
-  {{ $katexJS := slice $katexLib $katexRenderLib | resources.Concat "js/katex.bundle.js" | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-  <script
-    defer
-    type="text/javascript"
-    src="{{ $katexJS.RelPermalink }}"
-    integrity="{{ $katexJS.Data.Integrity }}"
-    id="katex-render"></script>
-  {{ $katexFonts := resources.Match "lib/katex/fonts/*" }}
-  {{ range $katexFonts }}
-    {{ end }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
