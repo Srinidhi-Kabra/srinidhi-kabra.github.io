@@ -10,7 +10,7 @@
   {{ $enableToc := or (.Params.showTableOfContents) (site.Params.article.showTableOfContents) | default false }}
   {{ if and $enableToc (in .TableOfContents "<ul") }}
     <nav aria-label="Table of contents"
-         class="mb-10 border-b border-gray-400 pb-4 prose prose-lg text-justify"
+         class="mb-10 border-b border-gray-300 pb-3 prose prose-lg text-justify"
          style="background:#fafafa; padding:1rem; border-radius:0.5rem; max-width: 100%; margin: 0 auto;">
       {{ .TableOfContents | safeHTML }}
     </nav>
