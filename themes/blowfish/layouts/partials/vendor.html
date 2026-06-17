@@ -10,7 +10,7 @@
   {{ $mermaidConfig := resources.Get "js/mermaid.js" }}
   {{ $mermaidConfig := $mermaidConfig | resources.Minify }}
   {{ $mermaidJS := slice $mermaidLib $mermaidConfig | resources.Concat "js/mermaid.bundle.js" | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-  <script
+  <script>
     defer
     type="text/javascript"
     src="{{ $mermaidJS.RelPermalink }}"
