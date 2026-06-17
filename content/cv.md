@@ -32,11 +32,6 @@ Physics Lab (I, II, III & IV)
 <span style="color:rgb(100, 140, 150);"> Supervisor : Dr. Anna Pachol, University of Southeastern Norway (May 2025 - Present) </span> \
 Purpose of this summer project was to gain experience with the algebraic framework used to understand quantum groups. Mathematical prerequisites such as Hopf algebras, Lie algebras, Lie bialgebras, Poisson Lie groups were understood by means of calculations and literature study. Some elementary examples of quantum groups such as \( U_q (\mathfrak{sl}_2) \) were studied. Applications of quantum groups towards construction of noncommutative spacetimes were examined by means of literature study. As of present, I am continuing this project under the guidance of Dr. Pachol, outside the scope of the summer internship. A detailed report of my summer internship can be accessed [here](/files/internship_report.pdf).
 
-**Lie Theory and Representation Theory (Reading Project)** \
-<span style="color:rgb(100, 140, 150);"> Supervisor : Dr. Tanusree Khandai, IISER Mohali, India (Sept 2025 - Present)</span> \
-Studied module theory and Wedderburn structure theorem. Currently exploring Lie
-theory further to build a path towards Lie representation theory.
-
 **Modelling Long-Term Evolution of a Cheater-Cooperator System** \
 <span style="color:rgb(100, 140, 150);"> Supervisor : Dr. Supreet Saini, IIT Bombay, India (May 2024 - July 2024)</span> \
 Basic biology of yeast growth on sucrose, glucose and melibiose as well as various concepts such as Moran process, Distribution of Fitness Effects (DFE) and a mathematical model describing cheater-cooperator system were understood by means of calculations and literature study. A python script was developed using the libraries numpy, pandas and matplotlib which aimed to model long term evolution in the system under study. This was done by programming a function which introduces mutations and tracks its effects on various parameters including fitness. 
