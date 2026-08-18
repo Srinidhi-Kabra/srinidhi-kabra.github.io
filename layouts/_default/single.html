@@ -8,7 +8,7 @@
 <article class="{{ $articleClass }} max-w-3xl mx-auto px-6 py-10">
 
 <header class="mb-8 text-center">
-<h1 class="text-4xl font-extrabold">TESTMARKER {{ .Title }}</h1>
+<h1 class="text-4xl font-extrabold">{{ .Title }}</h1>
 </header>
 
   {{ $enableToc := or (.Params.showTableOfContents) (site.Params.article.showTableOfContents) | default false }}
