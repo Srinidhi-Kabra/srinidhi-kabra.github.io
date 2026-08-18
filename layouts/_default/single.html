@@ -1,33 +1,39 @@
 {{ define "main" }}
-<article class="max-w-3xl mx-auto px-6 py-10">
 
-  
+{{ $articleClass := "" }}
+{{ if .Params.math }}
+  {{ $articleClass = "math-article" }}
+{{ end }}
 
-  <header class="mb-8 text-center">
-    <h1 class="text-4xl font-extrabold">{{ .Title }}</h1>
-  </header>
+<article class="{{ $articleClass }} max-w-3xl mx-auto px-6 py-10">
+
+<header class="mb-8 text-center">
+<h1 class="text-4xl font-extrabold">TESTMARKER {{ .Title }}</h1>
+</header>
 
   {{ $enableToc := or (.Params.showTableOfContents) (site.Params.article.showTableOfContents) | default false }}
+
   {{ if and $enableToc (in .TableOfContents "<ul") }}
-    <nav aria-label="Table of contents"
-         class="mb-10 border-b border-gray-300 pb-3 prose prose-lg text-justify"
-         style="background:#fafafa; padding:1rem; border-radius:0.5rem; max-width: 100%; margin: 0 auto;">
+<nav aria-label="Table of contents"
+class="mb-10 border-b border-gray-300 pb-3 prose prose-lg text-justify"
+style="background:#fafafa; padding:1rem; border-radius:0.5rem; max-width: 100%; margin: 0 auto;">
       {{ .TableOfContents | safeHTML }}
-    </nav>
+</nav>
   {{ end }}
 
-  <section class="prose prose-lg mx-auto text-justify">
+<section class="prose prose-lg mx-auto text-justify">
     {{ .Content }}
-  </section>
+</section>
 
   {{ if .Params.tags }}
-  <div class="tags mt-8">
+<div class="tags mt-8">
     Tags:
     {{ range .Params.tags }}
-      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag-link mr-2 text-blue-600 underline">{{ . }}</a>
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag-link mr-2 text-blue-600 underline">{{ . }}</a>
     {{ end }}
-  </div>
+</div>
   {{ end }}
 
 </article>
+
 {{ end }}
