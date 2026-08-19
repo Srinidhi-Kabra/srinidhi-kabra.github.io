@@ -37,11 +37,11 @@ Studied the biology of yeast growth on sucrose, glucose, and melibiose alongside
 ---
 
 ## Talks
-- Quantum Groups and Construction of Noncommutative Spacetimes
-  *Student Seminar Series, IISER Mohali, India (November 2025)*
+- Quantum Groups and Construction of Noncommutative Spacetimes \
+*Student Seminar Series, IISER Mohali, India (November 2025)*
 
-- An Informal Introduction to Quantum Groups
-  *Student Seminar Series, IISER Mohali, India (August 2025)*
+- An Informal Introduction to Quantum Groups \
+*Student Seminar Series, IISER Mohali, India (August 2025)*
 
 ---
 
@@ -78,9 +78,9 @@ Designed individualized learning plans and provided conceptual, derivation-focus
 ---
 
 ## Skills 
-**Computational Skills** : Python; NumPy, SciPy, pandas, Matplotlib, numerical modelling and data analysis 
-**Typesetting** : \( \LaTeX \)
-**Mathematical Communication** : mathematical talks, teaching, expository writings
+**Computational Skills** : Python; NumPy, SciPy, pandas, Matplotlib, numerical modelling and data analysis \
+**Typesetting** : \( \LaTeX \), Notion \
+**Mathematical Communication** : mathematical talks, teaching, expository writings \
 **Languages** : Marathi (Native), English (fluent), Hindi (fluent) \
 **Leadership \& Community Outreach** : Helped build a pan-India community supporting LGBTQIA+ individuals in Indian academia; served as a representative of the IISER Mohali LGBTQIA+ Collective. Currently moderate r/iiser, supporting outreach and information-sharing for students interested in IISERs and research-oriented higher education. Mentor prospective and current students on research-oriented academic pathways.
 
