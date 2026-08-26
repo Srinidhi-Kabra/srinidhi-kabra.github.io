@@ -26,7 +26,7 @@ Quantum groups, Hopf algebras, representation theory and Lie theory, with a broa
 ## Research Experience 
 
 **Quantum Groups and Noncommutative Spacetimes** \
-<span style="color:rgb(100, 140, 150);"> Supervisor : Dr. Anna Pachol, University of Southeastern Norway (May 2025 - Aug 2025); continued independently thereafter </span> \
+<span style="color:rgb(100, 140, 150);"> Supervisor : Dr. Anna Pachol, University of Southeastern Norway (May 2025 - June 2025); continued independently thereafter </span> \
 Studied the algebraic foundations of quantum groups, including Hopf algebras, Lie algebras, Lie bialgebras, Poisson-Lie groups through literature study and explicit calculations. Worked through elementary examples including \( U_q (\mathfrak{sl}_2) \) and investigated applications of quantum group structures to noncommutative spacetime models. Calculated Poisson brackets, coproducts and cocommutators associated with Lie algebras of isometry groups, and investigated their implications for the resulting deformed spacetime structures. 
 *Project report*: [PDF](/files/internship_report.pdf).
 
