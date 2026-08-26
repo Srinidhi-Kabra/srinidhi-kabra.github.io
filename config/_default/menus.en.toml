@@ -16,16 +16,6 @@
  weight = 20
 
 [[main]]
- name = "Notes"
- pageRef = "notes.md"
- weight = 30
-
-[[main]]
-    name = "Teaching"
-    pageRef = "teaching"
-    weight = 40
-
-[[main]]
     name = "Blogs"
     pageRef = "blogs"
     weight = 50

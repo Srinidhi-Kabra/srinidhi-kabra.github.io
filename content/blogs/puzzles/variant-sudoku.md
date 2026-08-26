@@ -51,9 +51,14 @@ A different way to think of this is as following - you are given a square 9x9 gr
 - each 3x3 box in the grid contains only one copy of each digit
 - given digits in the grid
 
-Thus a sudoku can be characterised as a certain configuration of digits subject to some constraint. If the sudoku has only above constraints then we call it a classical sudoku. But there's no reason that sudoku grid cannot contain some other constraints. For example, in addition to the above rules, I can require that certain cells inside the sudoku contain consecutive digits - this is depicted in Figure 2. 
+Thus the solution of a sudoku can be described as a certain configuration of digits subject to some constraint. If the sudoku has only above constraints then we call it a classical sudoku. But there's no reason that sudoku grid cannot contain some other constraints. For example, in addition to the above rules, I can require that certain cells inside the sudoku contain consecutive digits - this is depicted in Figure 2. One could come up with a number of such constraints. Any sudoku that utilises constraints other than the classical ones, is what we call a variant sudoku. In this world, there are many 'standard' constraints. I will talk about a few in this blog but this list is far from being complete. For a relatively 'complete' guide to variant sudokus we refer the reader to <a href="https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?chlang=en&id=000GOJ"> Logic Masters Germany</a> website. This website is a go-to database for variant sudokus. The Youtube channel <a href="https://www.youtube.com/c/CrackingTheCryptic"> Cracking the Cryptic </a> features numerous puzzles which are solved live on camera and the logic is explained beautifully. This channel also happens to be the reason that I got interested in variant sudokus, I would highly recommend them! 
 
+(insert figure 2)
 
+Let us define some terminology-
+- by a $n\times m$ grid, we mean an arrangement of cells with $n$ rows and $m$ columns. We denote the cell in $i^\text{th}$ row and $j^\text{th}$ column as $R_iC_j$ or as R$i$C$j$. 
+- Given any set of $k$-cells in the grid, we can define some relationship that the digits in those cells have to obey. Such a relationship is known as a constraint. Note that for two cells to not bare any specific relationship, is still to have some form of relationship between them. We shall call this a trivial constraint. 
+- A sudoku is an umbrella term used to describe any $n\times m$ grid which is subjected to one or more non-trivial constraints. Usually the grids we work with would be square, i.e. we will work with $n\times n$ grid where most often $n=4,6,9$. By a $(n,n)-$sudoku (or simply, $9-$sudoku) we mean a sudoku in $n\times n$ grid. 
 
 
 </div>

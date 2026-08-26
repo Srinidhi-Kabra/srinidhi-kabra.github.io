@@ -1,6 +1,6 @@
 ---
 date: '2024-10-28T21:23:41+05:30'
-draft: false
+draft: true
 title: 'Sight Without Light'
 description: "In this poetic prose, I examine the duality of light and darkness as experienced during emotional turmoil in the form of confessions over time."
 categories : ["Literature"]

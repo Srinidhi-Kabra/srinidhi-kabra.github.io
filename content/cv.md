@@ -9,7 +9,7 @@ showTableOfContents: true
 
 ## Research Interests
 
-Quantum groups, Hopf algebras, representation theory and Lie theory, with a broader interests in noncommutative geometry, low-dimensional topology, and mathematical physics
+Quantum groups, Hopf algebras, representation theory and Lie theory, with a broader interest in noncommutative geometry, low-dimensional topology, and mathematical physics
 
 ---
 
@@ -56,6 +56,8 @@ Studied the biology of yeast growth on sucrose, glucose, and melibiose alongside
 - Lie groups and Lie algebras
 - Elementary structure theory of semisimple Lie algebras
 
+
+
 ---
 
 
@@ -68,7 +70,6 @@ Studied the biology of yeast growth on sucrose, glucose, and melibiose alongside
 ## Teaching Experience
 
 **Independent Mathematics \& Physics Teaching (Feb 2025 to Present)** \
-<span style="color:rgb(100, 140, 150);"> Detailed information can be found in the [teaching section]({{< ref "/teaching/_index" >}}) of the website.</span> \
 Developed and taught structured mathematics and physics curricula for motivated high-school students, emphasizing conceptual understanding, mathematical intuition, derivation, and problem solving. Designed original assignments to complement lectures, diagnose conceptual weaknesses, and encourage non-routine approaches to problem solving.
 
 
@@ -82,6 +83,6 @@ Designed individualized learning plans and provided conceptual, derivation-focus
 **Typesetting** : \( \LaTeX \), Notion \
 **Mathematical Communication** : mathematical talks, teaching, expository writings \
 **Languages** : Marathi (Native), English (fluent), Hindi (fluent) \
-**Leadership \& Community Outreach** : Helped build a pan-India community supporting LGBTQIA+ individuals in Indian academia; served as a representative of the IISER Mohali LGBTQIA+ Collective. Currently moderate r/iiser, supporting outreach and information-sharing for students interested in IISERs and research-oriented higher education. Mentor prospective and current students on research-oriented academic pathways.
+**Leadership \& Community Outreach** : Helped build a pan-India community supporting LGBTQIA+ individuals in Indian academia; served as a representative of the IISER Mohali LGBTQIA+ Collective. Currently moderator of r/iiser, supporting outreach and information-sharing for students interested in IISERs and research-oriented higher education. 
 
 </div>
