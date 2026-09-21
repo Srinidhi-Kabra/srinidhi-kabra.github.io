@@ -37,11 +37,14 @@ Studied the biology of yeast growth on sucrose, glucose, and melibiose alongside
 ---
 
 ## Talks
+- Knots, Braids, Yang-Baxter Equation and Knot Invariants \
+  *Student Seminar, IISER Mohali, India (September 2026)*
+
 - Quantum Groups and Construction of Noncommutative Spacetimes \
-*Student Seminar Series, IISER Mohali, India (November 2025)*
+*Student Seminar, IISER Mohali, India (November 2025)*
 
 - An Informal Introduction to Quantum Groups \
-*Student Seminar Series, IISER Mohali, India (August 2025)*
+*Student Seminar, IISER Mohali, India (August 2025)*
 
 ---
 
@@ -56,7 +59,10 @@ Studied the biology of yeast growth on sucrose, glucose, and melibiose alongside
 - Lie groups and Lie algebras
 - Elementary structure theory of semisimple Lie algebras
 
-
+**Low Dimensional Topology**
+- knot theory and braid groups
+- Yang-Baxter equation and braid representations
+- Quantum invariants for knots 
 
 ---
 
